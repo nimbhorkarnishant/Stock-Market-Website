@@ -1,0 +1,56 @@
+body{
+	font-family: calibri, Helvetica, sans-serif;
+	font-size:20px;
+	background-image: url("image/img.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+body{
+	font-family: calibri, Helvetica, sans-serif;
+	font-size:20px;
+}
+#username{
+  width: 100%;
+  padding: 15px 20px;
+  border: 1px solid #00e68a;
+  border-radius:5px;
+  box-sizing:
+  border-box;
+  alignment:left;
+}
+input[type=password]{
+  width: 100%;
+  padding: 15px 20px;
+  border: 1px solid #00e68a;
+  border-radius:5px;
+  box-sizing:
+  border-box;
+  alignment:left;
+}
+label,small{
+	float:left; width: 15px; margin-right: 2px;
+}
+button {
+  background-color: #59c999;
+  float:center;
+  width: 15px;
+  margin-right: 2px;
+  font-family: calibari, Helvetica, sans-serif;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 10px;
+  width: 50%;
+}
+button:hover {
+  background-color: #00e68a;
+  color: white;
+}
